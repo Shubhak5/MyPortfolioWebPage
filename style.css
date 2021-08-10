@@ -67,3 +67,19 @@ img {
 img:hover {
     transform: scale(0.9);
 }
+
+#myCarousel {
+    background-color: rosybrown;
+}
+
+#myCarousel img {
+    margin-top: 35px;
+    height: 300px;
+}
+
+.carousel-inner p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: saddlebrown;
+    font-size: 20px;
+}
