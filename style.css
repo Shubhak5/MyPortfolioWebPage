@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    color: blueviolet;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: yellowgreen;
+    margin: 10px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: chartreuse;
+}
+
+section {
+    width: 100%;
+    height: 800px;
+}
+
+#secApps {
+    background-color: aliceblue;
+}
+
+#secGame {
+    background-color: burlywood;
+}
+
+#secChatBot {
+    background-color: coral;
+}
+
+#secArt {
+    background-color: darksalmon;
+}
+
+img {
+    transition: transform .2s;
+    width: 500px;
+    height: 500px;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
